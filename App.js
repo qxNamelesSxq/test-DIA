@@ -130,7 +130,7 @@ function MapScreen({ pointA, pointB, userLocation, showRouteInfo }) {
       <MapViewDirections
         origin={pointA}
         destination={pointB}
-        apikey="AIzaSyCkAcFn_J08YrfVtFHM9_dXSKGPjQGZQlY"
+        apikey="YOUR KEY"
         strokeWidth={3}
         strokeColor="blue"
         alternatives={true}
@@ -145,7 +145,7 @@ function MapScreen({ pointA, pointB, userLocation, showRouteInfo }) {
         <MapViewDirections
           origin={userLocation}
           destination={pointA}
-          apikey="AIzaSyCkAcFn_J08YrfVtFHM9_dXSKGPjQGZQlY"
+          apikey="YOUR KEY"
           strokeWidth={3}
           strokeColor="green"
         />
